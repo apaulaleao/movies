@@ -1,0 +1,17 @@
+.movieRow{
+    margin-bottom:30px;
+};
+
+.color{
+margin:0px 0px 0px 30px;
+border: solid 1px white !important;
+color:blue;
+};
+
+.movieRow--listarea{
+    overflow-x:hidden;
+};
+
+.movieRow--item{
+    display:inline-block;
+};
