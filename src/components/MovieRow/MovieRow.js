@@ -1,7 +1,7 @@
 import  React from 'react';
-import './style.css'
+import '.MovieRow.css';
 
-export default function Movie ({title,items}) {
+function Movie ({title,items}) {
     return(
         <div className ="movieRow ">
              <h2 className="color" style={{color:'red'}}>{title}</h2>
@@ -18,4 +18,4 @@ export default function Movie ({title,items}) {
         </div>
     );
 };
-
+export default Movie;

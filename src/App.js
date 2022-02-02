@@ -15,29 +15,18 @@
 //)
 
 import React from 'react';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import Home from "./MovieLibrary/components/Home/Home";
-import Header from "./MovieLibrary/components/Header/Header";
-import Footer from "./MovieLibrary/components/Footer/Footer";
-import PageNotFound from "./MovieLibrary/components/PageNotFound/PageNotFound";
-import MovieDetail from "./MovieLibrary/components/MovieDetail/MovieDetail";
-import './App.css';
+//import MovieRow from './MovieLibrary/components/MovieRow/MovieRow';
+import './App.scss';
 
 function App() {
   return (
-    <div className = "App">
-      <BrowserRouter>
-      <Header/>
-        <Routes>
-          <Route path ="/" exact element ={<Home/>}/>
-          <Route path ="/movie/:TmdbID" element = {<MovieDetail/>}/>
-          <Route element ={<PageNotFound/>}/>
-        </Routes>
-        <Footer/>
-</BrowserRouter>
+    <div> 
+    app
     </div>
-  )
-}
+
+   
+  );
+};
 
 export default App;
 
