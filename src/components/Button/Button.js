@@ -22,7 +22,7 @@ const OutlineButton = props => {
         >
         {props.children}
         </Button>
-    )
+    );
 }
 
 Button.propTypes = {
