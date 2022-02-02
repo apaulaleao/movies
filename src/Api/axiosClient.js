@@ -3,8 +3,8 @@ import queryString from "query-string";
 
 import apiConfig from "./apiConfig";
 
-const axiosCliente = axios.create({
-  baseURL: apiConfig.baseURL,
+const axiosClient = axios.create({
+  baseURL: apiConfig.baseUrl,
   headers: {
     "Content-Type": "application/json",
   },
