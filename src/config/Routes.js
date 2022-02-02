@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Switch  } from 'react-router-dom';
 
-import Home from '../pages/Home';
-import Catalog from '../pages/Catalog';
-import Detail from '../pages/Detail';
+import Home from '../Pages/Home';
+import Catalog from '../Pages/Catalog';
+import Detail from '../Pages/Detail';
 
 
 
@@ -24,11 +24,7 @@ const Routes = () => {
         component ={Catalog}
         />
         
-         
-        
-
-        
-    </Switch>
+      </Switch>
   )
   
 };

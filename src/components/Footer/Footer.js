@@ -1,13 +1,12 @@
 import React from 'react';
-import * as S from './styled';
-export default function Footer() {
+
+const Footer = () => {
   return (
-    <S.Container>
-    <div className="footer">
-      <div>Movie App</div>
-      <div>@2022, Movie, Inc. or Affiliates</div>
-    </div>
-    </S.Container>
-  );
+  <div>
+      footer
+  </div>
+  )
 };
+
+export default Footer;
 
