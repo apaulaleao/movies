@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./Header.scss";
-import logo from "../../assets/tmovie.png";
+import logo from "../../assets/powtoon.png";
 import { Link, useLocation } from "react-router-dom";
 
 const headerNav = [
